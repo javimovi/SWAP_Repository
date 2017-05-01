@@ -19,7 +19,7 @@ Realizo la configuración para el caso de carga con ponderación:
 ![GitHub Logo](Imagen1Ponderacion.JPG)
 
 Ejecuto ab para realizar peticiones ( como en el ejercicio 3 ) y así ver como resuelve las peticiones
-concretamente he ejecutado ab -n 1000 -c 10 http://192.168.2.121/index.html
+concretamente he ejecutado ab -n 1000 -c 10 http://192.168.244.129/index.html
 
 ![GitHub Logo](Imagen1_2Ponderacion.JPG)
 
@@ -28,13 +28,13 @@ Realizo la configuración ahora para el caso de carga Round Robin:
 ![GitHub Logo](Imagen1RoundRobin.JPG)
 
 Ejecuto ab para realizar peticiones y así ver como resuelve las peticiones
-igualmente he ejecutado ab -n 1000 -c 10 http://192.168.2.121/index.html
+igualmente he ejecutado ab -n 1000 -c 10 http://192.168.244.129/index.html
 
 ![GitHub Logo](Imagen1_2RoundRobin.JPG)
 
 ### 3. Someter a la granja web a una alta carga, teniendo primero nginx y después haproxy.
 
-He ejecutado en la 4a máquina ab -n 10000 -c 10 http://192.168.2.121/index.html en el primer caso ( nginx )
+He ejecutado en la 4a máquina ab -n 10000 -c 10 http://192.168.244.129/index.html en el primer caso ( nginx )
 vemos este resultado
 
 ![GitHub Logo](Imagen3LessHaproxy.JPG)
