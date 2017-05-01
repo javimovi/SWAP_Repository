@@ -1,7 +1,6 @@
 # Práctica 4
 
-### 1. Instalar un certificado SSL autofirmado para configurar el acceso HTTPS a los
-servidores.
+### 1. Instalar un certificado SSL autofirmado para configurar el acceso HTTPS a los servidores.
 
 Configuramos el acceso https
 
