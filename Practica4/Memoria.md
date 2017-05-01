@@ -16,11 +16,7 @@ Y por último reiniciamos el servicio para actualizar la configuración:
 
 ![GitHub Logo](Ejercicio1_4.JPG)
 
-### 2. Configurar las reglas del cortafuegos con IPTABLES para asegurar el acceso a
-los servidores web, permitiendo el acceso por los puertos de HTTP y HTTPS.
-Esta configuración se puede hacer en la misma máquina balanceadora. En
-cualquier caso se debe poner en un script que se ejecute en el arranque del
-sistema.
+### 2. Configurar las reglas del cortafuegos con IPTABLES para asegurar el acceso a los servidores web, permitiendo el acceso por los puertos de HTTP y HTTPS. Esta configuración se puede hacer en la misma máquina balanceadora. En cualquier caso se debe poner en un script que se ejecute en el arranque del sistema.
 
 Compruebo el estado del cortafuegos
 
