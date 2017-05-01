@@ -1,0 +1,16 @@
+# (1) Eliminar todas las reglas (configuración limpia)
+iptables -F
+iptables -X
+iptables -Z
+iptables -t nat -F
+
+# (2) Política por defecto: denegar todo el tráfico
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+# (3) Abrir los puertos HTTP y HTTPS
+iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+iptables -A OUTPUT -p tcp --sport 80 -j ACCEPT
+iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+iptables -A OUTPUT -p tcp --sport 443 -j ACCEPT
